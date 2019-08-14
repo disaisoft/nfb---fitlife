@@ -2,7 +2,8 @@ import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Layout from '../components/Partials/LayoutComponent';
 import NavBar from '../components/Partials/NavBarComponent';
-//import SideBar from './SidebarComponent/SideBarComponent';
+import firebase from 'firebase';
+import StyledFirebaseAuth from 'react-firebaseui/StyledFirebaseAuth';
 
 
 
