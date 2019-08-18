@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import logo from '../../images/logo.jpg';
+
+
 class NavBar extends Component {
 
     render() {
@@ -15,11 +17,11 @@ class NavBar extends Component {
                         </button>
                         <div class="collapse navbar-collapse" id="firstNavbar">
                             <ul class="navbar-nav ml-auto">
-                                <li class="nav-item"><a class="nav-link" href="a"><i class="fa fa-fw fa-home"></i>INICIO</a></li>
-                                <li class="nav-item"><a class="nav-link" href="a"><i class="fa fa-fw fa-envelope"></i>ACERCA DE</a></li>
-                                <li class="nav-item"><a class="nav-link" href="a"><i class="fa fa-fw fa-star"></i>MENSAJES</a></li>
-                                <li class="nav-item"><a class="nav-link" href="a"><i class="fa fa-fw fa-cog"></i>BLOG</a></li>
-                                <li class="nav-item"><a class="nav-link" href="a"><i class="fa fa-fw fa-user"></i>MI CUENTA</a></li>
+                                <li class="nav-item"><a class="nav-link" href="a"><i class="fa fa-fw fa-home"></i>ACERCA DE</a></li>
+                                <li class="nav-item"><a class="nav-link" href="a"><i class="fa fa-fw fa-envelope"></i>EMPEZAR</a></li>
+                                <li class="nav-item"><a class="nav-link" href="a"><i class="fa fa-fw fa-star"></i>EL NEGOCIO</a></li>
+                                <li class="nav-item"><a class="nav-link" href="a"><i class="fa fa-fw fa-cog"></i>TESTIMONIOS</a></li>
+                                <li class="nav-item"><a class="nav-link" href="a"><i class="fa fa-fw fa-user"></i>ATOMATIZAR MI ROBOT</a></li>
                             </ul>
                         </div>
                     </div>
@@ -32,3 +34,4 @@ class NavBar extends Component {
 }
 
 export default NavBar;
+
