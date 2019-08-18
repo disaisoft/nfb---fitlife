@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import Front from '../../images/frontend.jpeg';
-import Back from '../../images/backend.jpeg'
-import Video from '../../images/videogame.jpg'
+import Shakes from '../../images/shakes.jpg';
+import Yoga from '../../images/yoga.jpg'
+import Correr from '../../images/correr.jpg'
 
 
 export class HomeComponent extends Component {
@@ -17,15 +17,15 @@ export class HomeComponent extends Component {
           </ol>
           <div className="carousel-inner">
             <div className="carousel-item active">
-              <img src={Front} className="d-block w-100" alt="..."/>
+              <img src={Shakes} className="d-block w-100" height="" width="" alt="..."/>
             </div>
             <div className="carousel-item">
-              <img src={Back} className="d-block w-100" alt="..."/>
+              <img src={Yoga} className="d-block w-100" alt="..."/>
               <div className="carousel-caption d-none d-md-block">
               </div>
             </div>
             <div className="carousel-item">
-              <img src={Video} className="d-block w-100" alt="..."/>
+              <img src={Correr} className="d-block w-100" alt="..."/>
             </div>
           </div>
           <a className="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
